@@ -7,12 +7,16 @@ import { RegistrationComponent } from './registration/registration.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import {MatIconModule} from '@angular/material/icon';
+import { LoginComponent } from './login/login.component';
+import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent,
+    ResetpasswordComponent
   ],
   imports: [
     BrowserModule,

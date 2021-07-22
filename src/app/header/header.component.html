@@ -20,15 +20,17 @@
 
         </div>
         <div class="header__nav">
-            <div class="header__option">
-                <span class="header__optionlineone">
-                      Hello Guest,
-                </span>
-                <span class="header__optionlinetwo">
-                    Sign in
-                </span>
+            <a routerLink='signin'>
+                <div class="header__option">
+                   <span class="header__optionlineone">
+                         Hello Guest,
+                   </span>
+                   <span class="header__optionlinetwo">
+                       Sign in
+                   </span>
 
-            </div>
+                </div>
+           </a>
             <div class="header__option">
                 <span class="header__optionlineone">
                     Returns
@@ -59,6 +61,7 @@
 
 
     </div>
+    <router-outlet></router-outlet>
     
 </body>
 </html>
