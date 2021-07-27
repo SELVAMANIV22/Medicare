@@ -1,1 +1,15 @@
-<p>home works!</p>
+<table style="width:100%">
+    <tr>
+      <th>productid</th>
+      <th>productname</th>
+      <th>prouctcolor</th>
+      <th>price</th>
+    </tr>
+    <tr *ngFor="let product of products;">
+      <td>{{product.productid}}</td>
+      <td>{{product.productname}}</td>
+      <td>{{product.prouctcolor}}</td>
+      <td>{{product.price}}</td>
+    </tr>
+  </table>
+  <router-outlet></router-outlet>
