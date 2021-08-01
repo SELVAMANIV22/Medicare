@@ -15,6 +15,7 @@ import { CartComponent } from './cart/cart.component';
 import { SearchComponent } from './search/search.component';
 import { PaymentComponent } from './payment/payment.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     OrdersComponent,
     CartComponent,
     SearchComponent,
-    PaymentComponent
+    PaymentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
