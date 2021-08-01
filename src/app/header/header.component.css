@@ -63,4 +63,8 @@
     align-items: center;
     color: white;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 

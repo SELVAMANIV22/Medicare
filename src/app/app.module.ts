@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
@@ -16,10 +15,10 @@ import { SearchComponent } from './search/search.component';
 import { PaymentComponent } from './payment/payment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     RegistrationComponent,
     HeaderComponent,
     LoginComponent,
@@ -29,7 +28,8 @@ import { FooterComponent } from './footer/footer.component';
     CartComponent,
     SearchComponent,
     PaymentComponent,
-    FooterComponent
+    FooterComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +39,6 @@ import { FooterComponent } from './footer/footer.component';
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent,HomeComponent]
+  bootstrap: [HeaderComponent]
 })
 export class AppModule { }
